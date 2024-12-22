@@ -17,8 +17,8 @@ web_venv is the name of the virtual environment
 <h3>To activate virtual environment:</h3>
 <strong><i>source web_venv/bin/activate</i></strong>
 
-<h3>To make the website available on the Local Area Network,</h3>
-the following command must be written in the terminal (inside the directory which contains all the files and folders + inside the virtual environment to access all the modules)
+<h3>To make the website available on the Local Area Network:</h3>
+The following command must be written in the terminal (inside the directory which contains all the files and folders + inside the virtual environment to access all the modules):
 <strong><i>flask run --host=192.168.0.100 --port=5000</i></strong>
 <h3>After this we can access the website from any device in the same Wi-Fi network using the following IP Address:</h3>
 <i>http://192.168.0.100:5000</i>
